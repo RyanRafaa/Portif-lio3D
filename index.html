@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+		</style>
+        <link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+        <div id="loader"><div class="carregando"></div></div>
+        <canvas id="myCanvas"></canvas>
+        <div id="tutorial"><a href="https://ryanrafaa.github.io./" class="verem2d">Ver Portifólio em 2D</a></div>
+        
+        <a href="http://127.0.0.1:5173/" id="voltar">◀ VOLTAR</a><!--mudar-->
+        <div id="myDiv" >
+            <div class="cam"><div class="cam2"></div></div>
+            
+            <button id="winds"><div class="winds"></div></button>
+            <div class="windsdesk" id="myDiv2"></div>
+            <div class="div-conteudo-tela" id="myDiv3"> 
+                <div class="googlebar">
+                    <button id="minimizar"></button>
+                    <button id="fechar"></button>
+                </div>
+                <header>
+                    <div class="logoheader"></div>
+                    <nav>
+                    <a href="#topo" class="hs" style="text-decoration: none;">IR AO TOPO</a>
+                    <a href="#sobre" class="hs" style="text-decoration: none;">SOBRE</a>
+                    <a href="#formações" class="hs" style="text-decoration: none;">FORMAÇÕES</a>
+                    <a href="#projetos" class="hs" style="text-decoration: none;">PROJETOS</a>
+                    </nav>
+                </header>
+                <section class="parte1" id="topo" >
+                    <article class="texto1">
+                        <h5>Olá mundo!</h5>
+                        <div class="apresentacao">
+                            <h1>Ryan</h1>
+                            <h1 class="rafaa">"Rafaa"</h1>
+                            <h1>Gonçalves</h1>
+                        </div>
+                        <div class="linha"></div>
+                        <h6>Seja bem vindo ao meu portifólio, meu nome é Ryan Rafael, muito prazer! Sou brasileiro e estudo Ánalise e Desenvolvimentos de sistemas, gosto de trabalhar com o Front-End.</h6>
+                    </article>
+                    <article class="foto1"></article>
+                </section>
+                <section class="parte2" id="sobre">
+                    <article class="texto2" data-aos="fade-up">
+                        <div class="apresentacao">
+                            <h1>Sobre</h1><h1 class="rafaa">Mim</h1>
+                            </div>
+                            <div class="linha2"></div>
+                            <h6 class="mim">Oi galera, tudo bem? Me chamo Ryan e no meio dos games há quem me conheça como Rafaa, tenho 21 anos e sou brasileiro, tenho um PUG chamado Millow rsrs, amo esportes e e-sports, me formei no ensino médio como técnico em Eletrotécnica no Instituto Federal do Paraná, agora estou no início de um bacharelado em Análise e Desenvolvimento de Sistemas pela UCP Univale, menos de um ano pra falar bem a verdade... Adoro misturar a minha parte criativa em meus projetos, para algumas pessoas pode até ser uma pitadinha de bom gosto haha!! </h6>
+                    </article>
+                </section>
+                <section class="parte3" id="formações" >
+                    <article class="foto3" data-aos="fade-up">
+                    </article>
+                    <article class="texto3">
+                        
+                        <div class="apresentacao3" data-aos="fade-up">
+                            <h1>Minhas</h1><h1 class="rafaa">Formações</h1>
+                        </div>
+                        <div class="linha3" data-aos="fade-up"></div>
+                        <div class="alinharplacas3" data-aos="fade-up">
+                            <div class="placa3"><h6 class="h6pt3">Ensino Médio e Técnico em Eletrotécnica</h6></div>
+                            <div class="placa3"><h6 class="h6pt3">Curso profissionalizante em Web Designer</h6></div>
+                        </div>
+                        <div class="alinharplacas3" data-aos="fade-up">
+                            <div class="placa3"><h6 class="h6pt3">Curso profissionalizante em Designer Gráfico</h6></div>
+                            <div class="placa3"><h6 class="h6pt3">Curso profissionalizante em Desenvolvedor de Games e Apps</h6></div>
+                        </div>
+                        <div class="alinharplacas3" data-aos="fade-up">
+                            <div class="placa3"><h6 class="h6pt3">Cursos Online Ciências da Computação - CS500 Harvard, </h6></div>
+                            <div class="placa3"><h6 class="h6pt3">EM BREVE Bacharel em Análise e Desenvolvimento de Sistemas</h6></div>
+                        </div>
+                        <div class="linha3" data-aos="fade-up"></div>
+                    </article>
+                </section>
+                <section class="parte4" id="projetos" >
+                    <div class="apresentacao" data-aos="fade-up">
+                        <h1>Meus</h1><h1 class="rafaa">Projetos</h1>
+                    </div>
+                    <div class="linha2" data-aos="fade-up"></div>
+                    <article class="projetosap" data-aos="fade-up">
+                        <a href="https://github.com/RyanRafaa/BootcampNLW" target="_blank" style="text-decoration: none;"><div class="pro1">
+                            <div class="pro1img1"></div><h6>Bootcamp NLW</h6>
+                        </div></a>
+                        <a href="https://github.com/RyanRafaa/BootcampNLW" target="_blank" style="text-decoration: none;"><div class="pro1">
+                            <div class="pro1img2"></div><h6>Programinha Certidões</h6>
+                        </div></a>  
+                        <a href="https://github.com/RyanRafaa/BootcampNLW" target="_blank" style="text-decoration: none;"><div class="pro1">
+                            <div class="pro1img3"></div><h6>Prova1 CSS </h6>
+                        </div></a>
+                        
+                    </article>
+            
+                </section>
+            </div>
+            
+            
+
+
+        </div>
+        <div id="divcelular">
+            <div class="telacelular">
+                <div id="telacelulardisplay" class="telacelulardisplay">
+                    <div class="camcelular"></div>
+                    <div id="linksteladisplay">
+                        <a href="https://github.com/RyanRafaa" class="gitlink" target="_blank"></a>
+                        <a href="https://www.linkedin.com/in/ryan-rafael-rocha-097a5a14a/" class="linkedinlink" target="_blank"></a>
+                        <a href="https://www.instagram.com/ryanrafaag/" class="instalink" target="_blank"></a>
+                        <a href="mailto:ryanrafael11@hotmail.com" class="emaillink" target="_blank"></a>
+                        <a href="https://steamcommunity.com/id/rafaagoncalves/" class="steamlink" target="_blank"></a>
+                        <a href="https://twitter.com/RyanRafaa" class="twitterlink" target="_blank"></a>
+                        <a href="https://www.facebook.com/ryan.rafael.125/" class="facebooklink" target="_blank"></a>
+                        <a href="https://www.twitch.tv/ryanrafaa" class="twitchlink" target="_blank"></a>
+                        <h3 class="git-text">github</h3>
+                        <h3 class="linkedin-text">linkedin</h3>
+                        <h3 class="insta-text">instagram</h3>
+                        <h3 class="email-text">email</h3>
+                        <h3 class="steam-text">steam</h3>
+                        <h3 class="tt-text">twitter</h3>
+                        <h3 class="face-text">facebook</h3>
+                        <h3 class="twitch-text">twitch</h3>
+                    </div>
+                    <button class="botao-menu-celular" id="botao-menu-celular"></button>
+                </div>
+            </div>
+        </div>
+		<script type="module" src="/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.min.js"></script>
+        <script src="https://threejs.org/build/three.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js" > </script>
+        <script>
+        AOS.init()
+        </script>
+        <script src="https://threejs.org/build/three.module.js"></script>
+        <!-- <script src="/desktop.js"></script> -->
+        
+	</body>
+</html>
