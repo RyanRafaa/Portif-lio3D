@@ -9,6 +9,7 @@
     "@babel/preset-env": "^7.21.4"
   }, 
   "scripts": {
-    "start": "npx vite"
+    "start": "npx serve dist",
+    "build": "npx vite build"
   }
 }
